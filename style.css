@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: rgb(185, 0, 0);
+}
+
+h1 {
+    margin: 0;
+    padding: 0px 40px;
+    font-family: 'Cantata One', serif;
+    color: white;
+    pointer-events: none;
+}
+
+nav {
+    padding: 0px 40px;
+}
+
+.btec {
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(60, 60, 211);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bent {
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(43, 173, 43);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    margin: 20px 100px;
+}
+
+#tec {
+    margin-bottom: 30px;
+    border: 1px solid rgb(60, 60, 211);
+    border-radius: 5px;
+}
+
+#tec article {
+    margin: 25px 50px;
+}
+
+#tec article div {
+    padding: 0px 30px;
+}
+
+#ent {
+    border: 1px solid rgb(43, 173, 43);
+    border-radius: 5px;
+}
+
+#ent article {
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#ent article div {
+    display: flex;
+    margin: 0px 30px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    pointer-events: none;
+}
+
+.boxtec {
+    margin: 0;
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(60, 60, 211);
+}
+
+.iphone14 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iph14 {
+    height: 350px;
+}
+
+.sam {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgsam {
+    display: flex;
+    flex-direction: column;
+}
+
+#tec .sam img {
+    height: 350px;
+}
+
+.boxent {
+    margin: 0;
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(43, 173, 43);
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+}
+
+h6 {
+    margin: 0;
+    font-size: 12pt;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    pointer-events: none;
+}
+
+img {
+    height: 350px;
+}
